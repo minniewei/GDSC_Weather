@@ -19,8 +19,8 @@ app = Flask(__name__)
 
 #要使用line bot需要進行的驗證程序
 # LINE BOT info
-line_bot_api = LineBotApi('TkG0zfhlutudYYwK2nW6kBdw6GSJ1wGQJyRMrRx+EuQmTHyrgCmGMYo81Cz5hwgLvk723Ikzy5yUSfcjrxnUsgIuw3MDXWCjnkzelqYJqUHF7LuK/4hNujFAisuMKgFZHYS2lpK70BtAn/GlEVHsogdB04t89/1O/w1cDnyilFU=')
-handler = WebhookHandler('24b6475f17d23cea80b5348be59fb714')
+line_bot_api = LineBotApi('channel')
+handler = WebhookHandler('secret')
 
 #放置我的function
 def getcity(city):
